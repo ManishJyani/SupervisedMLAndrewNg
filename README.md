@@ -24,4 +24,5 @@ In this new part is multiple feature introduced in the problem and how to operat
 Second part is to be careful between number of obeservation (m) and number of features (n) , otherwise confusion between (m,n) can lead to wrong matrix opeation .
 while traing we take X_train as captical cuz X is matrix (2D ,having features as columns and number of obeserations as row) but y_train in small latter as it is 1D vectors where size is equal to number of oberserations.
 
+So when I build gradient decent for the house pricing problem , I found that solution was highly sensitive to the learning rate , (in most of the cases solution might not converge ), so better to normize the data  , z score normalization (where mean is 0 and std devition is  1) i.e (x-mean)/sigma
 ** I don't know what the fuck happened my all code got deleted , will resume from Lab 3 **
