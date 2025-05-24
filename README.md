@@ -26,6 +26,10 @@ while traing we take X_train as captical cuz X is matrix (2D ,having features as
 
 So when I build gradient decent for the house pricing problem , I found that solution was highly sensitive to the learning rate , (in most of the cases solution might not converge ), so better to normize the data  , z score normalization (where mean is 0 and std devition is  1) i.e (x-mean)/sigma
 
+lab3: tried feature scaling and polynomial regression , so first thing ,you just scale up the input features try there differnt combination and then calculate their weights and bias just the same way with gradient decent , so there is nothing new. 
+But to get the best fit , just explore the input like doing squre, polynomial or putting in some function and then calculating the weights or bias.
+But there is another way to put this:
+whatever you do with feature if that operation is providing you linear relation with the output , that is the best operation for getting the fit. It's obious and facinating at the same time. it becomes classic linear regression problem.
 
 lab4 : Started scikit-learn library ,got function for normalizing the data , intiating model (SGD : need to learn more ) and train , all with single line of command
 
