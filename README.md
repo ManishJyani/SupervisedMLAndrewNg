@@ -31,5 +31,11 @@ But to get the best fit , just explore the input like doing squre, polynomial or
 But there is another way to put this:
 whatever you do with feature if that operation is providing you linear relation with the output , that is the best operation for getting the fit. It's obious and facinating at the same time. it becomes classic linear regression problem.
 
-lab4 : Started scikit-learn library ,got function for normalizing the data , intiating model (SGD : need to learn more ) and train , all with single line of command
+lab5: Started scikit-learn library ,got function for normalizing the data , intiating model (SGD : need to learn more ) and train , all with single line of command
+
+**Week 03**
+Logistic Regression:
+Used for classification , current course talks about binary classfication ,linear regression is bad choice for classification , if any data is outlier ,that might lead to very wrong prediction . In classification problem we need result between 0 and 1 (probability) but linear regression can give output any number , though we can decide some thersold "th" f(x)>th , positive result and vica versa ,but if any outlier is there then this method is poor (refer lab 1 of week 03)
+
+
 
