@@ -37,5 +37,9 @@ lab5: Started scikit-learn library ,got function for normalizing the data , inti
 Logistic Regression:
 Used for classification , current course talks about binary classfication ,linear regression is bad choice for classification , if any data is outlier ,that might lead to very wrong prediction . In classification problem we need result between 0 and 1 (probability) but linear regression can give output any number , though we can decide some thersold "th" f(x)>th , positive result and vica versa ,but if any outlier is there then this method is poor (refer lab 1 of week 03)
 
+Lab 2: So here linearor any  regression don't tell the final result , as we need something 0 and 1 , so that becomes the input for sigmoid function called z, and which vary from 0 to 1 and at z=0 ,sigmoid is 0.5. means 50% of yes, 50% of no
+
+Lab 3: We talked about decesion boundary ,what does it mean , in classification outcome we decide some boundary ,if probability is more that we say true or less then that we say false . Commanly boundary is 50% , 0.5. p>0.5 : True , p<0.5 False. sigmoid to be 0.5, z = 0, f(w,b)=0 and this will give us curve 
+that is called decesion boundary, for linear f(w,b) this is line otherwise could be anything circle  , elipse or circle etc. and for f(w,b)<0 : False domain, and f(w,b)>0 : True domain .
 
 
