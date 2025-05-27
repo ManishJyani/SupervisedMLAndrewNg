@@ -41,5 +41,5 @@ Lab 2: So here linearor any  regression don't tell the final result , as we need
 
 Lab 3: We talked about decesion boundary ,what does it mean , in classification outcome we decide some boundary ,if probability is more that we say true or less then that we say false . Commanly boundary is 50% , 0.5. p>0.5 : True , p<0.5 False. sigmoid to be 0.5, z = 0, f(w,b)=0 and this will give us curve 
 that is called decesion boundary, for linear f(w,b) this is line otherwise could be anything circle  , elipse or circle etc. and for f(w,b)<0 : False domain, and f(w,b)>0 : True domain .
-
+did nothing much today. Just pushing .
 
