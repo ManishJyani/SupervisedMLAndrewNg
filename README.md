@@ -43,3 +43,7 @@ Lab 3: We talked about decesion boundary ,what does it mean , in classification 
 that is called decesion boundary, for linear f(w,b) this is line otherwise could be anything circle  , elipse or circle etc. and for f(w,b)<0 : False domain, and f(w,b)>0 : True domain .
 did nothing much today. Just pushing .
 
+Lab 4 : Got to learn alot today , so this lab told , we can not use mean square error as a cost function in classification problem, because nature of cost function with weights and bias will be of wiggly nature , a lot ot local minima and maxima , so better use log function for computing cost function function that is -y*(log(sigmoid))-(1-y)(log(1-sigmoid))
+
+Lab 5 : Computed the cost function ,refer it for the code.
+
