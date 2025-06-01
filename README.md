@@ -47,3 +47,4 @@ Lab 4 : Got to learn alot today , so this lab told , we can not use mean square 
 
 Lab 5 : Computed the cost function ,refer it for the code.
 
+Lab 6: Wrote the code for logistic regression problem with 2 features and binary classification problem ,same old method , compute gradient for weights and bias and then calculate the new one with gradient decent method . Just keep track on Cost function ,just to check if we are going in the right direction or not and plot the results .
